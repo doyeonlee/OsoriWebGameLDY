@@ -1,0 +1,117 @@
+
+html, body {
+  display: -webkit-flex;
+  display: flex;
+
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  -webkit-align-items: center;
+           align-items: center;
+  -webkit-justify-content: center;
+           justify-content: center;
+}
+
+#stage {
+  width: 80%;
+  height: 0;
+  padding-top: 45%;
+  border: 1px black solid;
+}
+#main_background {
+	position: absolute;
+	padding-top: 45%;
+	right: auto;
+	width: 80%;
+	height: 0%;
+/*	background-color: yellow;*/
+	background-image: url(./image/main_window.JPG);
+	background-size: cover;
+	background-position: center;
+}
+
+#main_start {
+	position: absolute;
+	padding: 3%;
+	top : 60%;
+	left: 10%;
+	float: left;
+	background-color: lightpink;
+}
+#main_setting{
+	position: absolute;
+	padding: 3%;
+	top : 60%;
+	left: 50%;
+	float: left;
+	background-color: skyblue;
+}
+#select_background {
+	position: absolute;
+	padding-top: 45%;
+	right: auto;
+	width: 80%;
+	height: 0%;
+	background-color: lightslategray;
+/*	background-image: url(./image/main_window.JPG);*/
+	background-size: cover;
+	background-position: center;
+}
+#select_background > button{
+	position: absolute;
+	padding: 5%;
+	float: left;
+	background-color: lightgreen;
+}
+#select_1 {
+	top : 20%;
+	left: 10%;
+}
+#select_2 {
+	top : 20%;
+	left: 45%;
+}
+#select_3 {
+	top : 20%;
+	left: 80%;
+}
+#select_4 {
+	top : 60%;
+	left: 10%;
+}
+#select_5 {
+	top : 60%;
+	left: 45%;
+}
+#select_6 {
+	top : 60%;
+	left: 80%;
+}
+#popUp_background {
+	position: absolute;
+	right: auto;
+	width: 50%;
+	height: 50%;
+	top : 25%;
+	left: 25%;
+	background-color: lightcoral;
+}
+#popUp_data {
+	position: absolute;
+	right: auto;
+	width: 80%;
+	height: 80%;
+	top :10%;
+	left: 10%;
+	background-color: lightyellow;
+}
+
+#popUp_go {
+	position: absolute;
+	padding: 3%;
+	top : 70%;
+	left: 85%;
+	float: left;
+	background-color: lightpink;
+}
